@@ -35,7 +35,7 @@ python evaluate.py doc.pdf           # 7 test questions under two chunking setti
 ## Features
 - Page-aware chunking, embeddings, cosine top-k retrieval, similarity threshold, "context only" prompt
 - Sources: shows only the passages the answer cited (with page numbers)
-- Bonus: conversation history (follow-ups are rewritten into standalone questions before retrieval), document summary, multiple documents (`DocIndex` takes a list of files)
+- Bonus: conversation history (follow-ups are rewritten into standalone questions before retrieval), document summary.
 - Embedding cache (`.emb_cache_*.npy`) and automatic retries on network errors
 
 See `DECISIONS.md` for design choices and the chunking experiment.
