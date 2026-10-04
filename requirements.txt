@@ -1,0 +1,9 @@
+pypdf>=4.0
+langchain-text-splitters>=0.2
+numpy>=1.26
+huggingface_hub>=0.24
+# Optional (only for EMBED_BACKEND=local or LLM_BACKEND=local; needs PyTorch):
+# sentence-transformers>=3.0
+# transformers>=4.44
+# torch
+# anthropic>=0.40   # only for LLM_BACKEND=anthropic
