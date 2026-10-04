@@ -60,7 +60,6 @@ See the output of `python evaluate.py doc.pdf`. Summary: 5 answerable questions 
 ## Bonus features (tested)
 - Conversation history: `python docqa.py chat doc.pdf`
 - Short document summary: `python docqa.py summary doc.pdf`
-- Multiple documents: `DocIndex` accepts a list of files.
 
 ### Conversation history: what I tested
 Session: "hi" -> refused (top score 0.20, below the threshold). "what are the help desk opening hours?" -> Monday to Friday, 10:00 AM to 4:00 PM (p.1). Follow-up "and on weekends?" -> correctly answered that the desk is closed on weekends.
