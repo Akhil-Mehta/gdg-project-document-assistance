@@ -1,7 +1,6 @@
 # Write-up: Document Q&A tool (GDG-USAR Student Handbook)
 
-**Project link:** <your GitHub repo link>
-**Demo video (optional):** <your video link>
+**Project link:** https://github.com/Akhil-Mehta/gdg-project-document-assistance
 
 ## What I built
 A command-line tool that answers questions about a PDF using only the document's own text, and shows which page and passage each answer came from. It runs on the GDG-USAR Student Handbook sample document.
