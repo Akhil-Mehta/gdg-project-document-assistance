@@ -19,8 +19,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = os.getenv("LLM_MODEL", "claude-sonnet-5-5")        # anthropic backend
-HF_MODEL = os.getenv("HF_MODEL", "Qwen/Qwen2.5-7B-Instruct")      # hf backend (API)
-LOCAL_MODEL = os.getenv("LOCAL_MODEL", "Qwen/Qwen2.5-1.5B-Instruct")  # local backend
+HF_MODEL = os.getenv("HF_MODEL", "Qwen/Qwen3-Next-80B-A3B-Instruct")      # hf backend (API)
+LOCAL_MODEL = os.getenv("LOCAL_MODEL", "Qwen/Qwen3-Next-80B-A3B-Instruct")  # local backend
 _embedder = None
 
 
